@@ -6,16 +6,16 @@ The  files are recorded as 48 kHz single-channel audios and are divided per acce
 
 ## Target groups
 
-* Argentinian female speakers (3531 files)
-* Argentinian male speakers (1818 files)
-* Colombian female speakers (2369 files)
-* Colombian male speakers (2534 files)
-* Peruvian female speakers (2529 files)
-* Peruvian male speakers (2918 files)
-* Venezuelan female speakers (1161 files)
-* Venezuelan male speakers (1754 files)
-* Chilean female speakers (1738)
-* Chilean male speakers (2636 files)
+* Argentinian female speakers (3,531 files)
+* Argentinian male speakers (1,818 files)
+* Colombian female speakers (2,369 files)
+* Colombian male speakers (2,534 files)
+* Peruvian female speakers (2,529 files)
+* Peruvian male speakers (2,918 files)
+* Venezuelan female speakers (1,161 files)
+* Venezuelan male speakers (1,754 files)
+* Chilean female speakers (1,738 files)
+* Chilean male speakers (2,636 files)
 
 
 ## Pre-processing

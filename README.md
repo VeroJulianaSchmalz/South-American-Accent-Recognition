@@ -33,9 +33,9 @@ def files_per_t_red(final_list,desired_number):
   ```
   
 
-1.   1.000 audio files in total (selecting 100 speakers per target accent)
-2.   2.000 audio files in total (selecting 200 speakers per target accent)
-3.   4.000 audio files in total (selecting 400 speakers per target accent)
+1.   1,000 audio files in total (selecting 100 speakers per target accent)
+2.   2,000 audio files in total (selecting 200 speakers per target accent)
+3.   4,000 audio files in total (selecting 400 speakers per target accent)
 4.   10% of 22988 audiofiles (without equal number of speakers per target)
 5.   20% of 22988 audiofiles (without equal number of speakers per target)
 
@@ -44,12 +44,12 @@ def files_per_t_red(final_list,desired_number):
 
 The dataloader takes the audio files according to the information provided in the csv files, where they are stored mixed and divided per training, validation and test set.
 
-The max length to be considered is 64000 samples or 4s and the windows length is 0.02. When loading the audio files, the sampling rate is 1600 and the length of the original recording is limited to 4s. The dataloader returns the Melspectrogram on 40 Mel filterbanks and the labels (target name). Considered experiments and data amounts:
+The max length to be considered is 64,000 samples or 4s and the windows length is 0.02. When loading the audio files, the sampling rate is 1600 and the length of the original recording is limited to 4s. The dataloader returns the Melspectrogram on 40 Mel filterbanks and the labels (target name). Considered experiments and data amounts:
 
-1. total audio files= 1000 (750 training, 150 test, 150 valid. sets)
-2. total audio files= 2000 (1400 training, 300 test, 300 valid. sets)
-3. total audio files= 4000 (2800 training, 600 test, 600 valid. sets)
-4. total audiofiles= 22988
+1. total audio files= 1,000 (750 training, 150 test, 150 valid. sets)
+2. total audio files= 2,000 (1400 training, 300 test, 300 valid. sets)
+3. total audio files= 4,000 (2800 training, 600 test, 600 valid. sets)
+4. total audiofiles= 22,988
   4.1.(1608 training -10% initial training set- 3,448 valid, 3,454 test)
   4.2.(32,172 training, 3,448 valid, 3,454 test) 20% of the total 
 
@@ -75,7 +75,7 @@ CNNNet(
  
 ## Evaluation 
 
-Experiment 5, with the highest amount of training data (not equally distributed per speakers' group) obtained the highest accuracy values (61% on train and valid. set) 
+Experiment 5, with the highest amount of training data (not equally distributed per speakers' group) reached the best accuracy values.
 Overall the best identified target groups were Argentinian Female Speakers and Chilean Male Speakers.
  
  
